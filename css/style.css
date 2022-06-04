@@ -1,0 +1,405 @@
+/*
+Common Styling
+*****************************************************************************/
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+html, body {
+    margin: 0%;
+    padding: 0%;
+}
+
+/*
+Global Classes Styling
+*****************************************************************************/
+
+/*
+Individual Pages - Front Page Styling
+*****************************************************************************/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container .logo img {
+    width: 15rem;
+}
+
+.container .tagline p {
+    font-family: Poppins, cursive;
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 40px;
+    font-size: 25px;
+}
+
+.container .button input {
+    width: 350px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    border-radius: 25px;
+    padding: 16px 0;
+    margin: 10px;
+    border: none;
+}
+
+.container .button .login input {
+    background-color: #FF11AA;
+}
+
+.container .button .signup input {
+    background-color: #9D0665;
+}
+
+/*
+Individual Pages - Login or Sign up Page Styling
+*****************************************************************************/
+
+.card {
+    width: 350px;
+    padding: 50px 40px;
+    border-radius: 10px;
+    box-shadow: 0.1px 0.1px 10px 0.1px rgba(232, 235, 232, 0.933);
+}
+
+.login-signup h1 {
+    font-family: Poppins, cursive;
+    padding: 6px 0;
+}
+
+.login-signup p {
+    font-family: Poppins, cursive;
+    font-size: 12px;
+}
+
+.login-signup .username {
+    margin: 20px 0;
+}
+
+.container .login-signup .password {
+    position: relative;
+}
+
+.login-signup .username label {
+    font-family: Poppins, cursive;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.login-signup .username input {
+    width: 338px;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(168, 166, 166);
+    border-radius: 10px;
+    padding: 12px 0px 12px 10px;
+    margin: 10px;
+    outline: none;
+    border: none;
+    background-color: rgb(247, 244, 244);
+    font-family: Poppins, cursive;
+    caret-color: black;
+}
+
+.login-signup .password label {
+    font-family: Poppins, cursive;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.login-signup .password input {
+    width: 338px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    color: rgb(168, 166, 166);
+    border-radius: 25px;
+    padding: 12px 0px 12px 10px;
+    margin: 10px;
+    outline: none;
+    background-color: rgb(247, 244, 244);
+    font-family: Poppins, cursive;
+    caret-color: black;
+}
+
+input[type=text]:focus {
+    border: 2px solid #FF11AA;
+}
+
+input[type=password]:focus {
+    border: 2px solid #FF11AA;
+}
+
+.container .login-signup .password img {
+    width: 20px;
+    position: absolute;
+    right: 3%;
+    top: 50%;
+}
+
+.login-signup .button .login {
+    margin: 20px 0;
+}
+
+.login-signup .button .reset {
+    margin: 20px 10px;
+
+}
+
+.login-signup .button .reset a {
+    margin-left: 107px; 
+    color: #FF11AA;
+    font-weight: bold;
+    font-family: Poppins, cursive;
+    font-size: 13px;
+
+}
+
+.login-signup .button .signup {
+    margin: 20px 0;
+}
+
+
+.login-signup .username .login input {
+    background-color: #FF11AA;
+}
+
+.container .button .signup input {
+    background-color: #9D0665;
+}
+
+/*
+Individual Pages - Profile Page Styling
+*****************************************************************************/
+
+.profile #add {
+    font-weight: 500;
+}
+
+.card .profile {
+    text-align: center;
+}
+
+
+.card .profile img {
+    width: 50px;
+    position: absolute;
+    top: 12%;
+    right: 30%;
+}
+.pic-upload.circle {
+    margin: 20px auto;
+}
+
+.circle {
+    border: 0.1px solid black;
+    border-radius: 100%;
+    width: 130px;
+    height: 130px;
+    text-align: center;
+    position: relative;
+
+}
+
+.e-mail label, .gender label {
+    font-family: Poppins, cursive;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.e-mail input {
+    width: 338px;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(168, 166, 166);
+    border-radius: 10px;
+    padding: 12px 0px 12px 10px;
+    margin: 10px;
+    outline: none;
+    border: none;
+    background-color: rgb(247, 244, 244);
+    font-family: Poppins, cursive;
+    caret-color: black;
+}
+
+.gender select, .gender select option {
+    width: 338px;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(168, 166, 166);
+    border-radius: 10px;
+    padding: 12px 0px 12px 10px;
+    margin: 10px;
+    outline: none;
+    border: none;
+    background-color: rgb(247, 244, 244);
+    font-family: Poppins, cursive;
+    caret-color: black;
+}
+
+input[type=email]:focus {
+    border: 2px solid #FF11AA;
+}
+
+select:focus {
+    border: 2px solid #FF11AA;
+}
+
+input::placeholder{
+    color: rgb(168, 166, 166);
+}
+
+select {
+    -webkit-appearance: none;
+}
+
+.gender {
+    position: relative;
+}
+
+#dropdown {
+    width: 18px;
+    position: absolute;
+    right: 5%;
+    top: 52%;
+}
+
+/*
+Individual Pages - Home Page Styling
+*****************************************************************************/
+
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: #FFEFF9;
+}
+
+.home-container .logo img {
+    width: 6rem;
+}
+
+.home-container .menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: Poppins, cursive;
+}
+
+.home-container .profile img, .home-container .match img,  .home-container .chat img {
+    width: 25px;
+}
+
+.not-found, .matched-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.not-found img, .matched-icon img {
+    width: 250px;
+    margin: 100px 0;
+}
+
+#later {
+    font-weight: 500;
+    font-size: 30px;
+    font-family: Poppins, cursive;
+    text-align: center;
+
+}
+
+.home {
+    height: 100vh;
+}
+
+/*
+Individual Pages - Find Match Page Styling
+*****************************************************************************/
+
+.home .match-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+}
+
+#show_bg_2 {
+    background-image:
+    linear-gradient(rgba(17, 17, 17, 0.52), transparent, transparent, rgba(24, 23, 23, 0.73)),
+    url('../assets/img/girl-pic.png');
+    width: 23%;
+    height: 600px;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+.home .match-page .detail {
+    position: absolute;
+    bottom:10%;
+}
+
+
+
+.reject input {
+    background: url('../assets/img/reject-icon.png');
+    background-repeat: no-repeat;
+    background-color: #ED1D25;
+    background-size: 20px;
+    background-position: 65px;
+    color: white;
+    padding: 15px 101px;
+    font-size: 16px;
+    border: none;
+    font-family: Poppins, cursive;
+    border-radius: 0px 0px 0px 10px;
+}
+
+.like input {
+    background: url('../assets/img/heart-icon.png');
+    background-repeat: no-repeat;
+    background-color: #31C305;
+    background-size: 20px;
+    background-position: 65px;
+    color: white;
+    padding: 15px 101px;
+    font-size: 16px;
+    border: none;
+    font-family: Poppins, cursive;
+    border-radius: 0px 0px 10px 0px;
+}
+
+.match-page .button {
+    display: flex;
+    position: absolute;
+    bottom: 10%
+}
+
+.info {
+    position: absolute;
+    bottom: 20%;
+    text-align: center;
+    color: white;
+
+}
+
